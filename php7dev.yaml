@@ -15,8 +15,12 @@ networking:
     - public: true
 
 folders:
-#    - map: example-folder
-#      to: /path/in/vagrant/example-folder
+    - map: /Volumes/9996-2813/data
+      to: /home/vagrant/pendata
 
 databases:
-    - example_database
+#    - soulshop
+
+ports:
+    - guest: 9000
+      host: 9000
