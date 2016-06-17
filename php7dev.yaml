@@ -15,8 +15,8 @@ networking:
     - public: true
 
 folders:
-    - map: /Volumes/9996-2813/data
-      to: /home/vagrant/pendata
+    - map: ~/work
+      to: /home/vagrant/work
 
 databases:
 #    - soulshop
